@@ -4,4 +4,100 @@ button-purple: #192592
 main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
+verdana o futura y para las otras times 
 */
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+
+@media screen and (max-width: 767px){
+    /*NAVBAR*/
+    nav{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        border-bottom: 1px solid #5b5e6d;
+        /*position: fixed;*/
+        background-color: #fff;
+        /*z-index: 1;*/
+    }
+    
+    nav .logo{
+        width: 20vw;
+    }
+
+    nav ul{
+        list-style: none;
+    }
+
+    /*HEADER*/
+
+    header{
+        margin: 20px 50px;
+    }
+
+    header img {
+        display: none;
+    }
+
+    header h1{
+        font-size: 4rem;
+        color: #2C303F;
+        margin: 50px 0;
+    }
+
+    main img {
+        width: 10vw;
+    }
+
+    header p{
+        color: #5b5e6d;
+        font-size: 1.5rem;
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 80px;
+    }
+
+    header button {
+        background-color: #192592;
+        color: #fff;
+        text-align: center;
+        padding: 30px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    header .sign-in{
+        color: #5b5e6d;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+
+
+    main{
+        margin: 20px 50px;
+    }
+
+
+    footer{
+        margin: 20px 50px;
+    }
+
+}
+
+
